@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="systems">
+      <UniqueIdentifier>{d72c4775-8700-48e5-9ba2-0b87c2340693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\camera">
+      <UniqueIdentifier>{066c67ab-fdea-4f48-8bde-fc8cf36d5d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\graphics">
+      <UniqueIdentifier>{2b170d67-f24f-403d-8b38-1f1270c15a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\input">
+      <UniqueIdentifier>{4083f0a4-d729-45ee-b312-1afcb52916f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{5c54fadc-cbd9-42f5-a4d0-bcc9dcdc0d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\components">
+      <UniqueIdentifier>{8ee2b557-cefe-41b0-858a-f814fbe5cd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\components\renderable">
+      <UniqueIdentifier>{b81a9f12-713d-426d-8512-65a663b8af35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\components\transform">
+      <UniqueIdentifier>{bc904c0d-1b35-49ee-acec-e8d57e9d686e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\manager">
+      <UniqueIdentifier>{b01a86e8-403a-4840-99f9-feb44ba154d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\object">
+      <UniqueIdentifier>{ec61c329-0230-4927-b00d-d1f72875efdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\debug">
+      <UniqueIdentifier>{a1fd880a-9af9-482c-8331-01525dcbc0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="systems\game">
+      <UniqueIdentifier>{78812771-aca8-4fa0-94e7-633723792196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="global.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>systems\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>systems\input</Filter>
+    </ClCompile>
+    <ClCompile Include="renderable.cpp">
+      <Filter>objects\components\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>objects\components\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>systems\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="objectmanager.cpp">
+      <Filter>objects\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>objects\object</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>systems\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>systems\game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>systems\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>systems\input</Filter>
+    </ClInclude>
+    <ClInclude Include="renderable.h">
+      <Filter>objects\components\renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>objects\components\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>systems\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="objectmanager.h">
+      <Filter>objects\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>objects\object</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>systems\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>systems\game</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.txt" />
+  </ItemGroup>
+</Project>
